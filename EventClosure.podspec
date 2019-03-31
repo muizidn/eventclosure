@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "EventClosure"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.1"
   spec.summary      = "A closure way to handle UIControl.Event"
 
   spec.description  = <<-DESC
