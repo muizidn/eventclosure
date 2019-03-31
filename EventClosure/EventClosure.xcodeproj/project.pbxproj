@@ -15,21 +15,14 @@
 		EF34D9E3224BCC8C009504D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF34D9E1224BCC8C009504D2 /* Main.storyboard */; };
 		EF34D9E5224BCC8D009504D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF34D9E4224BCC8D009504D2 /* Assets.xcassets */; };
 		EF34D9E8224BCC8D009504D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF34D9E6224BCC8D009504D2 /* LaunchScreen.storyboard */; };
-		EF963DF0224BBD6C0099BBAB /* EventClosure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF963DE6224BBD6A0099BBAB /* EventClosure.framework */; };
 		EF963DF7224BBD6C0099BBAB /* EventClosure.h in Headers */ = {isa = PBXBuildFile; fileRef = EF963DE9224BBD6A0099BBAB /* EventClosure.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFBD7DE9224F5752005F329C /* UIControl.Event+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBD7DE8224F5752005F329C /* UIControl.Event+Extension.swift */; };
-		EFBD7DEB224F615B005F329C /* EventClosureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBD7DEA224F615B005F329C /* EventClosureTests.swift */; };
+		EFB3BCB82250AB290019FF4A /* EventClosure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF963DE6224BBD6A0099BBAB /* EventClosure.framework */; };
+		EFF6349F2250B324005E9B82 /* EventClosureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6349D2250B323005E9B82 /* EventClosureTests.swift */; };
+		EFF634A02250B324005E9B82 /* UIControl.Event+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6349E2250B323005E9B82 /* UIControl.Event+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EF34DA09224BCC96009504D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EF963DDD224BBD690099BBAB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EF34D9DA224BCC8C009504D2;
-			remoteInfo = EventClosureApp;
-		};
-		EF963DF1224BBD6C0099BBAB /* PBXContainerItemProxy */ = {
+		EFB3BCB92250AB290019FF4A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EF963DDD224BBD690099BBAB /* Project object */;
 			proxyType = 1;
@@ -49,17 +42,13 @@
 		EF34D9E4224BCC8D009504D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF34D9E7224BCC8D009504D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF34D9E9224BCC8D009504D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF34D9F2224BCC8D009504D2 /* EventClosureAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventClosureAppTests.swift; sourceTree = "<group>"; };
-		EF34D9F4224BCC8D009504D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF34D9FD224BCC8D009504D2 /* EventClosureAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventClosureAppUITests.swift; sourceTree = "<group>"; };
-		EF34D9FF224BCC8D009504D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF963DE6224BBD6A0099BBAB /* EventClosure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EventClosure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF963DE9224BBD6A0099BBAB /* EventClosure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventClosure.h; sourceTree = "<group>"; };
 		EF963DEA224BBD6A0099BBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF963DEF224BBD6C0099BBAB /* EventClosureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventClosureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF963DF6224BBD6C0099BBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFBD7DE8224F5752005F329C /* UIControl.Event+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl.Event+Extension.swift"; sourceTree = "<group>"; };
-		EFBD7DEA224F615B005F329C /* EventClosureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventClosureTests.swift; sourceTree = "<group>"; };
+		EFB3BCB32250AB290019FF4A /* EventClosureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventClosureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF6349D2250B323005E9B82 /* EventClosureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventClosureTests.swift; sourceTree = "<group>"; };
+		EFF6349E2250B323005E9B82 /* UIControl.Event+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl.Event+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +66,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF963DEC224BBD6C0099BBAB /* Frameworks */ = {
+		EFB3BCB02250AB290019FF4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF963DF0224BBD6C0099BBAB /* EventClosure.framework in Frameworks */,
+				EFB3BCB82250AB290019FF4A /* EventClosure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,32 +100,12 @@
 			path = EventClosureApp;
 			sourceTree = "<group>";
 		};
-		EF34D9F1224BCC8D009504D2 /* EventClosureAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				EF34D9F2224BCC8D009504D2 /* EventClosureAppTests.swift */,
-				EF34D9F4224BCC8D009504D2 /* Info.plist */,
-			);
-			path = EventClosureAppTests;
-			sourceTree = "<group>";
-		};
-		EF34D9FC224BCC8D009504D2 /* EventClosureAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EF34D9FD224BCC8D009504D2 /* EventClosureAppUITests.swift */,
-				EF34D9FF224BCC8D009504D2 /* Info.plist */,
-			);
-			path = EventClosureAppUITests;
-			sourceTree = "<group>";
-		};
 		EF963DDC224BBD690099BBAB = {
 			isa = PBXGroup;
 			children = (
 				EF963DE8224BBD6A0099BBAB /* EventClosure */,
 				EF963DF3224BBD6C0099BBAB /* EventClosureTests */,
 				EF34D9DC224BCC8C009504D2 /* EventClosureApp */,
-				EF34D9F1224BCC8D009504D2 /* EventClosureAppTests */,
-				EF34D9FC224BCC8D009504D2 /* EventClosureAppUITests */,
 				EF963DE7224BBD6A0099BBAB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -145,8 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				EF963DE6224BBD6A0099BBAB /* EventClosure.framework */,
-				EF963DEF224BBD6C0099BBAB /* EventClosureTests.xctest */,
 				EF34D9DB224BCC8C009504D2 /* EventClosureApp.app */,
+				EFB3BCB32250AB290019FF4A /* EventClosureTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,9 +133,9 @@
 		EF963DF3224BBD6C0099BBAB /* EventClosureTests */ = {
 			isa = PBXGroup;
 			children = (
+				EFF6349D2250B323005E9B82 /* EventClosureTests.swift */,
+				EFF6349E2250B323005E9B82 /* UIControl.Event+Extension.swift */,
 				EF963DF6224BBD6C0099BBAB /* Info.plist */,
-				EFBD7DE8224F5752005F329C /* UIControl.Event+Extension.swift */,
-				EFBD7DEA224F615B005F329C /* EventClosureTests.swift */,
 			);
 			path = EventClosureTests;
 			sourceTree = "<group>";
@@ -220,23 +189,22 @@
 			productReference = EF963DE6224BBD6A0099BBAB /* EventClosure.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EF963DEE224BBD6C0099BBAB /* EventClosureTests */ = {
+		EFB3BCB22250AB290019FF4A /* EventClosureTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF963DFD224BBD6C0099BBAB /* Build configuration list for PBXNativeTarget "EventClosureTests" */;
+			buildConfigurationList = EFB3BCBB2250AB290019FF4A /* Build configuration list for PBXNativeTarget "EventClosureTests" */;
 			buildPhases = (
-				EF963DEB224BBD6C0099BBAB /* Sources */,
-				EF963DEC224BBD6C0099BBAB /* Frameworks */,
-				EF963DED224BBD6C0099BBAB /* Resources */,
+				EFB3BCAF2250AB290019FF4A /* Sources */,
+				EFB3BCB02250AB290019FF4A /* Frameworks */,
+				EFB3BCB12250AB290019FF4A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EF963DF2224BBD6C0099BBAB /* PBXTargetDependency */,
-				EF34DA0A224BCC96009504D2 /* PBXTargetDependency */,
+				EFB3BCBA2250AB290019FF4A /* PBXTargetDependency */,
 			);
 			name = EventClosureTests;
 			productName = EventClosureTests;
-			productReference = EF963DEF224BBD6C0099BBAB /* EventClosureTests.xctest */;
+			productReference = EFB3BCB32250AB290019FF4A /* EventClosureTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -256,9 +224,9 @@
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
 					};
-					EF963DEE224BBD6C0099BBAB = {
+					EFB3BCB22250AB290019FF4A = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = EF34D9DA224BCC8C009504D2;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -276,8 +244,8 @@
 			projectRoot = "";
 			targets = (
 				EF963DE5224BBD6A0099BBAB /* EventClosure */,
-				EF963DEE224BBD6C0099BBAB /* EventClosureTests */,
 				EF34D9DA224BCC8C009504D2 /* EventClosureApp */,
+				EFB3BCB22250AB290019FF4A /* EventClosureTests */,
 			);
 		};
 /* End PBXProject section */
@@ -300,7 +268,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF963DED224BBD6C0099BBAB /* Resources */ = {
+		EFB3BCB12250AB290019FF4A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,27 +297,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF963DEB224BBD6C0099BBAB /* Sources */ = {
+		EFB3BCAF2250AB290019FF4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFBD7DE9224F5752005F329C /* UIControl.Event+Extension.swift in Sources */,
-				EFBD7DEB224F615B005F329C /* EventClosureTests.swift in Sources */,
+				EFF6349F2250B324005E9B82 /* EventClosureTests.swift in Sources */,
+				EFF634A02250B324005E9B82 /* UIControl.Event+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EF34DA0A224BCC96009504D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EF34D9DA224BCC8C009504D2 /* EventClosureApp */;
-			targetProxy = EF34DA09224BCC96009504D2 /* PBXContainerItemProxy */;
-		};
-		EF963DF2224BBD6C0099BBAB /* PBXTargetDependency */ = {
+		EFB3BCBA2250AB290019FF4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EF963DE5224BBD6A0099BBAB /* EventClosure */;
-			targetProxy = EF963DF1224BBD6C0099BBAB /* PBXContainerItemProxy */;
+			targetProxy = EFB3BCB92250AB290019FF4A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -584,13 +547,14 @@
 			};
 			name = Release;
 		};
-		EF963DFE224BBD6C0099BBAB /* Debug */ = {
+		EFB3BCBC2250AB290019FF4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7J25C59XU;
 				INFOPLIST_FILE = EventClosureTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -598,19 +562,21 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pondokit.EventClosureTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EventClosureTests/EventClosureTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EventClosureApp.app/EventClosureApp";
 			};
 			name = Debug;
 		};
-		EF963DFF224BBD6C0099BBAB /* Release */ = {
+		EFB3BCBD2250AB290019FF4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7J25C59XU;
 				INFOPLIST_FILE = EventClosureTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -618,9 +584,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pondokit.EventClosureTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EventClosureTests/EventClosureTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EventClosureApp.app/EventClosureApp";
 			};
 			name = Release;
 		};
@@ -654,11 +620,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF963DFD224BBD6C0099BBAB /* Build configuration list for PBXNativeTarget "EventClosureTests" */ = {
+		EFB3BCBB2250AB290019FF4A /* Build configuration list for PBXNativeTarget "EventClosureTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF963DFE224BBD6C0099BBAB /* Debug */,
-				EF963DFF224BBD6C0099BBAB /* Release */,
+				EFB3BCBC2250AB290019FF4A /* Debug */,
+				EFB3BCBD2250AB290019FF4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
