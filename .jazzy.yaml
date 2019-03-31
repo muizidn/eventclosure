@@ -1,6 +1,0 @@
-author: muiz.idn@gmail.com
-xcodebuild_arguments:
-    - "-project"
-    - "./EventClosure/EventClosure.xcodeproj"
-    - "-scheme"
-    - "EventClosure"
