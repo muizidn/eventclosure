@@ -15,50 +15,13 @@
 		EF34D9E3224BCC8C009504D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF34D9E1224BCC8C009504D2 /* Main.storyboard */; };
 		EF34D9E5224BCC8D009504D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF34D9E4224BCC8D009504D2 /* Assets.xcassets */; };
 		EF34D9E8224BCC8D009504D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF34D9E6224BCC8D009504D2 /* LaunchScreen.storyboard */; };
-		EF34D9F3224BCC8D009504D2 /* EventClosureAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34D9F2224BCC8D009504D2 /* EventClosureAppTests.swift */; };
-		EF34D9FE224BCC8D009504D2 /* EventClosureAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34D9FD224BCC8D009504D2 /* EventClosureAppUITests.swift */; };
-		EF34DA1F224BD1C2009504D2 /* TouchUpInsideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA0B224BD1C0009504D2 /* TouchUpInsideTests.swift */; };
-		EF34DA20224BD1C2009504D2 /* EditingDidEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA0C224BD1C1009504D2 /* EditingDidEndTests.swift */; };
-		EF34DA21224BD1C2009504D2 /* ValueChangedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA0D224BD1C1009504D2 /* ValueChangedTests.swift */; };
-		EF34DA22224BD1C2009504D2 /* TouchDragInsideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA0E224BD1C1009504D2 /* TouchDragInsideTests.swift */; };
-		EF34DA23224BD1C2009504D2 /* EditingChangedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA0F224BD1C1009504D2 /* EditingChangedTests.swift */; };
-		EF34DA24224BD1C2009504D2 /* EditingDidEndOnExitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA10224BD1C1009504D2 /* EditingDidEndOnExitTests.swift */; };
-		EF34DA25224BD1C2009504D2 /* TouchDownRepeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA11224BD1C1009504D2 /* TouchDownRepeatTests.swift */; };
-		EF34DA26224BD1C2009504D2 /* TouchDownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA12224BD1C1009504D2 /* TouchDownTests.swift */; };
-		EF34DA27224BD1C2009504D2 /* TouchDragEnterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA13224BD1C1009504D2 /* TouchDragEnterTests.swift */; };
-		EF34DA28224BD1C2009504D2 /* TouchCancelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA14224BD1C1009504D2 /* TouchCancelTests.swift */; };
-		EF34DA29224BD1C2009504D2 /* AllEventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA15224BD1C1009504D2 /* AllEventsTests.swift */; };
-		EF34DA2A224BD1C2009504D2 /* EditingDidBeginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA16224BD1C2009504D2 /* EditingDidBeginTests.swift */; };
-		EF34DA2B224BD1C2009504D2 /* TouchUpOutsideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA17224BD1C2009504D2 /* TouchUpOutsideTests.swift */; };
-		EF34DA2C224BD1C2009504D2 /* PrimaryActionTriggeredTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA18224BD1C2009504D2 /* PrimaryActionTriggeredTests.swift */; };
-		EF34DA2D224BD1C2009504D2 /* AllEditingEventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA19224BD1C2009504D2 /* AllEditingEventsTests.swift */; };
-		EF34DA2E224BD1C2009504D2 /* ApplicationReservedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA1A224BD1C2009504D2 /* ApplicationReservedTests.swift */; };
-		EF34DA2F224BD1C2009504D2 /* AllTouchEventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA1B224BD1C2009504D2 /* AllTouchEventsTests.swift */; };
-		EF34DA30224BD1C2009504D2 /* TouchDragOutsideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA1C224BD1C2009504D2 /* TouchDragOutsideTests.swift */; };
-		EF34DA31224BD1C2009504D2 /* TouchDragExitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA1D224BD1C2009504D2 /* TouchDragExitTests.swift */; };
-		EF34DA32224BD1C2009504D2 /* SystemReservedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34DA1E224BD1C2009504D2 /* SystemReservedTests.swift */; };
 		EF963DF0224BBD6C0099BBAB /* EventClosure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF963DE6224BBD6A0099BBAB /* EventClosure.framework */; };
 		EF963DF7224BBD6C0099BBAB /* EventClosure.h in Headers */ = {isa = PBXBuildFile; fileRef = EF963DE9224BBD6A0099BBAB /* EventClosure.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFBD7DE7224F5306005F329C /* BaseEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBD7DE6224F5306005F329C /* BaseEventTests.swift */; };
 		EFBD7DE9224F5752005F329C /* UIControl.Event+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBD7DE8224F5752005F329C /* UIControl.Event+Extension.swift */; };
 		EFBD7DEB224F615B005F329C /* EventClosureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBD7DEA224F615B005F329C /* EventClosureTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EF34D9EF224BCC8D009504D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EF963DDD224BBD690099BBAB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EF34D9DA224BCC8C009504D2;
-			remoteInfo = EventClosureApp;
-		};
-		EF34D9FA224BCC8D009504D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EF963DDD224BBD690099BBAB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EF34D9DA224BCC8C009504D2;
-			remoteInfo = EventClosureApp;
-		};
 		EF34DA09224BCC96009504D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EF963DDD224BBD690099BBAB /* Project object */;
@@ -86,58 +49,21 @@
 		EF34D9E4224BCC8D009504D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF34D9E7224BCC8D009504D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF34D9E9224BCC8D009504D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF34D9EE224BCC8D009504D2 /* EventClosureAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventClosureAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF34D9F2224BCC8D009504D2 /* EventClosureAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventClosureAppTests.swift; sourceTree = "<group>"; };
 		EF34D9F4224BCC8D009504D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF34D9F9224BCC8D009504D2 /* EventClosureAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventClosureAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF34D9FD224BCC8D009504D2 /* EventClosureAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventClosureAppUITests.swift; sourceTree = "<group>"; };
 		EF34D9FF224BCC8D009504D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF34DA0B224BD1C0009504D2 /* TouchUpInsideTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchUpInsideTests.swift; sourceTree = "<group>"; };
-		EF34DA0C224BD1C1009504D2 /* EditingDidEndTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditingDidEndTests.swift; sourceTree = "<group>"; };
-		EF34DA0D224BD1C1009504D2 /* ValueChangedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueChangedTests.swift; sourceTree = "<group>"; };
-		EF34DA0E224BD1C1009504D2 /* TouchDragInsideTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchDragInsideTests.swift; sourceTree = "<group>"; };
-		EF34DA0F224BD1C1009504D2 /* EditingChangedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditingChangedTests.swift; sourceTree = "<group>"; };
-		EF34DA10224BD1C1009504D2 /* EditingDidEndOnExitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditingDidEndOnExitTests.swift; sourceTree = "<group>"; };
-		EF34DA11224BD1C1009504D2 /* TouchDownRepeatTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchDownRepeatTests.swift; sourceTree = "<group>"; };
-		EF34DA12224BD1C1009504D2 /* TouchDownTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchDownTests.swift; sourceTree = "<group>"; };
-		EF34DA13224BD1C1009504D2 /* TouchDragEnterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchDragEnterTests.swift; sourceTree = "<group>"; };
-		EF34DA14224BD1C1009504D2 /* TouchCancelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchCancelTests.swift; sourceTree = "<group>"; };
-		EF34DA15224BD1C1009504D2 /* AllEventsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllEventsTests.swift; sourceTree = "<group>"; };
-		EF34DA16224BD1C2009504D2 /* EditingDidBeginTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditingDidBeginTests.swift; sourceTree = "<group>"; };
-		EF34DA17224BD1C2009504D2 /* TouchUpOutsideTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchUpOutsideTests.swift; sourceTree = "<group>"; };
-		EF34DA18224BD1C2009504D2 /* PrimaryActionTriggeredTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryActionTriggeredTests.swift; sourceTree = "<group>"; };
-		EF34DA19224BD1C2009504D2 /* AllEditingEventsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllEditingEventsTests.swift; sourceTree = "<group>"; };
-		EF34DA1A224BD1C2009504D2 /* ApplicationReservedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationReservedTests.swift; sourceTree = "<group>"; };
-		EF34DA1B224BD1C2009504D2 /* AllTouchEventsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllTouchEventsTests.swift; sourceTree = "<group>"; };
-		EF34DA1C224BD1C2009504D2 /* TouchDragOutsideTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchDragOutsideTests.swift; sourceTree = "<group>"; };
-		EF34DA1D224BD1C2009504D2 /* TouchDragExitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchDragExitTests.swift; sourceTree = "<group>"; };
-		EF34DA1E224BD1C2009504D2 /* SystemReservedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemReservedTests.swift; sourceTree = "<group>"; };
 		EF963DE6224BBD6A0099BBAB /* EventClosure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EventClosure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF963DE9224BBD6A0099BBAB /* EventClosure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventClosure.h; sourceTree = "<group>"; };
 		EF963DEA224BBD6A0099BBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF963DEF224BBD6C0099BBAB /* EventClosureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventClosureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF963DF6224BBD6C0099BBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFBD7DE6224F5306005F329C /* BaseEventTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEventTests.swift; sourceTree = "<group>"; };
 		EFBD7DE8224F5752005F329C /* UIControl.Event+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl.Event+Extension.swift"; sourceTree = "<group>"; };
 		EFBD7DEA224F615B005F329C /* EventClosureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventClosureTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF34D9D8224BCC8C009504D2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF34D9EB224BCC8D009504D2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF34D9F6224BCC8D009504D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -221,8 +147,6 @@
 				EF963DE6224BBD6A0099BBAB /* EventClosure.framework */,
 				EF963DEF224BBD6C0099BBAB /* EventClosureTests.xctest */,
 				EF34D9DB224BCC8C009504D2 /* EventClosureApp.app */,
-				EF34D9EE224BCC8D009504D2 /* EventClosureAppTests.xctest */,
-				EF34D9F9224BCC8D009504D2 /* EventClosureAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,28 +164,7 @@
 		EF963DF3224BBD6C0099BBAB /* EventClosureTests */ = {
 			isa = PBXGroup;
 			children = (
-				EF34DA19224BD1C2009504D2 /* AllEditingEventsTests.swift */,
-				EF34DA15224BD1C1009504D2 /* AllEventsTests.swift */,
-				EF34DA1B224BD1C2009504D2 /* AllTouchEventsTests.swift */,
-				EF34DA1A224BD1C2009504D2 /* ApplicationReservedTests.swift */,
-				EF34DA0F224BD1C1009504D2 /* EditingChangedTests.swift */,
-				EF34DA16224BD1C2009504D2 /* EditingDidBeginTests.swift */,
-				EF34DA10224BD1C1009504D2 /* EditingDidEndOnExitTests.swift */,
-				EF34DA0C224BD1C1009504D2 /* EditingDidEndTests.swift */,
-				EF34DA18224BD1C2009504D2 /* PrimaryActionTriggeredTests.swift */,
-				EF34DA1E224BD1C2009504D2 /* SystemReservedTests.swift */,
-				EF34DA14224BD1C1009504D2 /* TouchCancelTests.swift */,
-				EF34DA11224BD1C1009504D2 /* TouchDownRepeatTests.swift */,
-				EF34DA12224BD1C1009504D2 /* TouchDownTests.swift */,
-				EF34DA13224BD1C1009504D2 /* TouchDragEnterTests.swift */,
-				EF34DA1D224BD1C2009504D2 /* TouchDragExitTests.swift */,
-				EF34DA0E224BD1C1009504D2 /* TouchDragInsideTests.swift */,
-				EF34DA1C224BD1C2009504D2 /* TouchDragOutsideTests.swift */,
-				EF34DA0B224BD1C0009504D2 /* TouchUpInsideTests.swift */,
-				EF34DA17224BD1C2009504D2 /* TouchUpOutsideTests.swift */,
-				EF34DA0D224BD1C1009504D2 /* ValueChangedTests.swift */,
 				EF963DF6224BBD6C0099BBAB /* Info.plist */,
-				EFBD7DE6224F5306005F329C /* BaseEventTests.swift */,
 				EFBD7DE8224F5752005F329C /* UIControl.Event+Extension.swift */,
 				EFBD7DEA224F615B005F329C /* EventClosureTests.swift */,
 			);
@@ -298,42 +201,6 @@
 			productName = EventClosureApp;
 			productReference = EF34D9DB224BCC8C009504D2 /* EventClosureApp.app */;
 			productType = "com.apple.product-type.application";
-		};
-		EF34D9ED224BCC8D009504D2 /* EventClosureAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EF34DA03224BCC8D009504D2 /* Build configuration list for PBXNativeTarget "EventClosureAppTests" */;
-			buildPhases = (
-				EF34D9EA224BCC8D009504D2 /* Sources */,
-				EF34D9EB224BCC8D009504D2 /* Frameworks */,
-				EF34D9EC224BCC8D009504D2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EF34D9F0224BCC8D009504D2 /* PBXTargetDependency */,
-			);
-			name = EventClosureAppTests;
-			productName = EventClosureAppTests;
-			productReference = EF34D9EE224BCC8D009504D2 /* EventClosureAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		EF34D9F8224BCC8D009504D2 /* EventClosureAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EF34DA06224BCC8D009504D2 /* Build configuration list for PBXNativeTarget "EventClosureAppUITests" */;
-			buildPhases = (
-				EF34D9F5224BCC8D009504D2 /* Sources */,
-				EF34D9F6224BCC8D009504D2 /* Frameworks */,
-				EF34D9F7224BCC8D009504D2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EF34D9FB224BCC8D009504D2 /* PBXTargetDependency */,
-			);
-			name = EventClosureAppUITests;
-			productName = EventClosureAppUITests;
-			productReference = EF34D9F9224BCC8D009504D2 /* EventClosureAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		EF963DE5224BBD6A0099BBAB /* EventClosure */ = {
 			isa = PBXNativeTarget;
@@ -385,14 +252,6 @@
 					EF34D9DA224BCC8C009504D2 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					EF34D9ED224BCC8D009504D2 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = EF34D9DA224BCC8C009504D2;
-					};
-					EF34D9F8224BCC8D009504D2 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = EF34D9DA224BCC8C009504D2;
-					};
 					EF963DE5224BBD6A0099BBAB = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
@@ -419,8 +278,6 @@
 				EF963DE5224BBD6A0099BBAB /* EventClosure */,
 				EF963DEE224BBD6C0099BBAB /* EventClosureTests */,
 				EF34D9DA224BCC8C009504D2 /* EventClosureApp */,
-				EF34D9ED224BCC8D009504D2 /* EventClosureAppTests */,
-				EF34D9F8224BCC8D009504D2 /* EventClosureAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -433,20 +290,6 @@
 				EF34D9E8224BCC8D009504D2 /* LaunchScreen.storyboard in Resources */,
 				EF34D9E5224BCC8D009504D2 /* Assets.xcassets in Resources */,
 				EF34D9E3224BCC8C009504D2 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF34D9EC224BCC8D009504D2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF34D9F7224BCC8D009504D2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,22 +319,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF34D9EA224BCC8D009504D2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF34D9F3224BCC8D009504D2 /* EventClosureAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF34D9F5224BCC8D009504D2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF34D9FE224BCC8D009504D2 /* EventClosureAppUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EF963DE2224BBD6A0099BBAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -506,45 +333,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF34DA2F224BD1C2009504D2 /* AllTouchEventsTests.swift in Sources */,
-				EF34DA2B224BD1C2009504D2 /* TouchUpOutsideTests.swift in Sources */,
-				EFBD7DE7224F5306005F329C /* BaseEventTests.swift in Sources */,
-				EF34DA27224BD1C2009504D2 /* TouchDragEnterTests.swift in Sources */,
-				EF34DA32224BD1C2009504D2 /* SystemReservedTests.swift in Sources */,
-				EF34DA21224BD1C2009504D2 /* ValueChangedTests.swift in Sources */,
-				EF34DA2A224BD1C2009504D2 /* EditingDidBeginTests.swift in Sources */,
-				EF34DA22224BD1C2009504D2 /* TouchDragInsideTests.swift in Sources */,
-				EF34DA2E224BD1C2009504D2 /* ApplicationReservedTests.swift in Sources */,
-				EF34DA24224BD1C2009504D2 /* EditingDidEndOnExitTests.swift in Sources */,
-				EF34DA1F224BD1C2009504D2 /* TouchUpInsideTests.swift in Sources */,
 				EFBD7DE9224F5752005F329C /* UIControl.Event+Extension.swift in Sources */,
-				EF34DA26224BD1C2009504D2 /* TouchDownTests.swift in Sources */,
-				EF34DA25224BD1C2009504D2 /* TouchDownRepeatTests.swift in Sources */,
-				EF34DA2C224BD1C2009504D2 /* PrimaryActionTriggeredTests.swift in Sources */,
-				EF34DA28224BD1C2009504D2 /* TouchCancelTests.swift in Sources */,
 				EFBD7DEB224F615B005F329C /* EventClosureTests.swift in Sources */,
-				EF34DA31224BD1C2009504D2 /* TouchDragExitTests.swift in Sources */,
-				EF34DA30224BD1C2009504D2 /* TouchDragOutsideTests.swift in Sources */,
-				EF34DA2D224BD1C2009504D2 /* AllEditingEventsTests.swift in Sources */,
-				EF34DA29224BD1C2009504D2 /* AllEventsTests.swift in Sources */,
-				EF34DA20224BD1C2009504D2 /* EditingDidEndTests.swift in Sources */,
-				EF34DA23224BD1C2009504D2 /* EditingChangedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EF34D9F0224BCC8D009504D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EF34D9DA224BCC8C009504D2 /* EventClosureApp */;
-			targetProxy = EF34D9EF224BCC8D009504D2 /* PBXContainerItemProxy */;
-		};
-		EF34D9FB224BCC8D009504D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EF34D9DA224BCC8C009504D2 /* EventClosureApp */;
-			targetProxy = EF34D9FA224BCC8D009504D2 /* PBXContainerItemProxy */;
-		};
 		EF34DA0A224BCC96009504D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EF34D9DA224BCC8C009504D2 /* EventClosureApp */;
@@ -610,92 +406,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		EF34DA04224BCC8D009504D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P7J25C59XU;
-				INFOPLIST_FILE = EventClosureAppTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pondokit.EventClosureAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EventClosureApp.app/EventClosureApp";
-			};
-			name = Debug;
-		};
-		EF34DA05224BCC8D009504D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P7J25C59XU;
-				INFOPLIST_FILE = EventClosureAppTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pondokit.EventClosureAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EventClosureApp.app/EventClosureApp";
-			};
-			name = Release;
-		};
-		EF34DA07224BCC8D009504D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P7J25C59XU;
-				INFOPLIST_FILE = EventClosureAppUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pondokit.EventClosureAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EventClosureApp;
-			};
-			name = Debug;
-		};
-		EF34DA08224BCC8D009504D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P7J25C59XU;
-				INFOPLIST_FILE = EventClosureAppUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pondokit.EventClosureAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EventClosureApp;
 			};
 			name = Release;
 		};
@@ -922,24 +632,6 @@
 			buildConfigurations = (
 				EF34DA01224BCC8D009504D2 /* Debug */,
 				EF34DA02224BCC8D009504D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EF34DA03224BCC8D009504D2 /* Build configuration list for PBXNativeTarget "EventClosureAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EF34DA04224BCC8D009504D2 /* Debug */,
-				EF34DA05224BCC8D009504D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EF34DA06224BCC8D009504D2 /* Build configuration list for PBXNativeTarget "EventClosureAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EF34DA07224BCC8D009504D2 /* Debug */,
-				EF34DA08224BCC8D009504D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

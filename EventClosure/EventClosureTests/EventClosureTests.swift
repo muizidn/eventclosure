@@ -11,7 +11,7 @@ import XCTest
 
 class EventClosureTests: XCTestCase {
     
-    // private
+    private
     var control: UIControl!
     
     override func setUp() {
@@ -24,7 +24,7 @@ class EventClosureTests: XCTestCase {
         super.tearDown()
     }
     
-    // private
+    private
     func onEventInvoked(for event: UIControl.Event, file: StaticString = #file, line: UInt = #line) {
         setUp()
         defer { tearDown() }
@@ -39,7 +39,7 @@ class EventClosureTests: XCTestCase {
         XCTAssertEqual(value, 10, file: file, line: line)
     }
     
-    // private
+    private
     func onEventAdded(for event: UIControl.Event, file: StaticString = #file, line: UInt = #line) {
         setUp()
         defer { tearDown() }
@@ -57,17 +57,17 @@ class EventClosureTests: XCTestCase {
         XCTAssertEqual(control.actionsCount, 100, file: file, line: line)
     }
     
-    // private
+    private
     func onEventReturnDifferentAction(for event: UIControl.Event, file: StaticString = #file, line: UInt = #line) {
         setUp()
         defer { tearDown() }
         
         let action1 = event.onEvent(control: control, completion: { })
         let action2 = event.onEvent(control: control, completion: { })
-        XCTAssertTrue(action1 != action2, "\(action1) must be different with \(action2)")
+        XCTAssertTrue(!action1.isEqual(action2) && action1 != action2, "\(action1) must be different with \(action2)")
     }
     
-    // private
+    private
     func eventRemoved(for event: UIControl.Event, file: StaticString = #file, line: UInt = #line) {
         setUp()
         defer { tearDown() }
@@ -77,7 +77,7 @@ class EventClosureTests: XCTestCase {
         XCTAssertTrue(isRemoved, "\(action) not removed")
     }
     
-    // private
+    private
     func eventNotInvokedAfterRemoved(for event: UIControl.Event, file: StaticString = #file, line: UInt = #line) {
         setUp()
         defer { tearDown() }
@@ -95,6 +95,12 @@ class EventClosureTests: XCTestCase {
         )
         control.sendActions(for: event)
         XCTAssertEqual(value, 3, "Event not removed, expected \(3) returned \(value)",file: file, line: line)
+    }
+    
+    func testDifferentActionTypeMustNotEqual() {
+        let actionVoid = Action(action: {_ in } , input: ())
+        let actionInt = Action(action: {_ in}, input: 0)
+        XCTAssertNotEqual(actionVoid, actionInt)
     }
     
     func testTouchDown() {
