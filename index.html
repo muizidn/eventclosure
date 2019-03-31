@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EventClosure  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+
+    <a title="EventClosure  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          EventClosure Docs
+        </a>
+         (100% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">EventClosure Reference</a>
+      <img class="carat" src="img/carat.png" />
+      EventClosure  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="readme.html">README</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/Action.html">Action</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/UIControl.html">UIControl</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:12EventClosure10ActionVoida">ActionVoid</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            
+            <h1 id='event-closure' class='heading'>Event Closure</h1>
+
+<p>Make your event #selector to be a closure. Beautiful!</p>
+
+<p><a href="https://travis-ci.org/muizidn/eventclosure"><img src="https://travis-ci.org/muizidn/eventclosure.svg?branch=master" alt="Build Status"></a>
+<a href="https://codecov.io/gh/muizidn/eventclosure"><img src="https://codecov.io/gh/muizidn/eventclosure/branch/master/graph/badge.svg" alt="codecov"></a>
+<img src="https://img.shields.io/github/languages/top/muizidn/eventclosure.svg?color=orange" alt="GitHub top language">
+<img src="https://img.shields.io/cocoapods/v/EventClosure.svg?color=red" alt="Cocoapods"></p>
+<h3 id='avoid' class='heading'>Avoid</h3>
+<pre class="highlight swift"><code><span class="n">control</span><span class="o">.</span><span class="nf">addTarget</span><span class="p">(</span><span class="k">self</span><span class="p">,</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">#selector(</span><span class="nf">fetchGithubUsers</span><span class="kd">)</span><span class="p">,</span> <span class="nv">for</span><span class="p">:</span> <span class="o">.</span><span class="n">touchUpInside</span><span class="p">)</span>
+</code></pre>
+<h3 id='do' class='heading'>Do</h3>
+<pre class="highlight swift"><code><span class="n">control</span><span class="o">.</span><span class="n">onTouchUpInside</span> <span class="p">{</span> <span class="nf">fetchGithubUsers</span><span class="p">()</span> <span class="p">}</span>
+</code></pre>
+<h3 id='get-your-own-control' class='heading'>Get Your Own Control</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">showConfirmAction</span> <span class="o">=</span> <span class="n">control</span><span class="o">.</span><span class="n">onTouchUpInside</span> <span class="p">{</span>
+    <span class="nf">showConfirmationAlert</span><span class="p">(</span><span class="s">"Close connection?"</span><span class="p">)</span> <span class="p">{</span> 
+        <span class="n">connection</span><span class="o">.</span><span class="nf">close</span><span class="p">()</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+<h3 id='to-invoke-it' class='heading'>To Invoke It</h3>
+<pre class="highlight swift"><code><span class="n">showConfirmAction</span><span class="o">.</span><span class="nf">performAction</span><span class="p">()</span>
+</code></pre>
+
+<p>But its not recommended</p>
+<h3 id='or-to-remove-it-later' class='heading'>Or To Remove It Later</h3>
+<pre class="highlight swift"><code><span class="n">control</span><span class="o">.</span><span class="nf">rmOnTouchUpInside</span><span class="p">(</span>
+  <span class="n">showConfirmationAction</span>
+<span class="p">)</span>
+</code></pre>
+<h2 id='cocoapod' class='heading'>CocoaPod</h2>
+<pre class="highlight ruby"><code><span class="n">pod</span> <span class="s2">"EventClosure"</span>
+</code></pre>
+
+          </div>
+        </section>
+
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2019 <a class="link" href="https://github.com/muizidn/eventclosure" target="_blank" rel="external">muiz.idn@gmail.com</a>. All rights reserved. (Last updated: 2019-03-31)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>
