@@ -14,18 +14,27 @@ public final class Action<I>: NSObject {
     private let _action: (I) -> Void
     private let _input: I
     private let identifier = UUID().uuidString
+    
+    /// Initialize an Action with closure and input
+    ///
+    /// - Parameters:
+    ///   - action: A closure with input parameter of type I
+    ///   - input: a parameter object of type I, must be reference type
     public init(action: @escaping (I) -> Void, input: I) {
         _action = action
         _input = input
         super.init()
     }
     
-    @objc func action() {
+    
+    /// Call associated action with paremeter input
+    @objc
+    public func performAction() {
         _action(_input)
     }
     
     public var selector: Selector {
-        return #selector(action)
+        return #selector(performAction)
     }
     
     override public func isEqual(_ object: Any?) -> Bool {

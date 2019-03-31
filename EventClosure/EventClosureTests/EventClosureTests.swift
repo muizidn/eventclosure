@@ -9,6 +9,21 @@
 import XCTest
 @testable import EventClosure
 
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    var window: UIWindow?
+    let viewController = ViewController()
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        let window = UIWindow()
+        window.rootViewController = viewController
+        self.window = window
+        return true
+    }
+}
+
+class ViewController: UIViewController {
+    let control = UIControl()
+}
+
 class EventClosureTests: XCTestCase {
     
     private

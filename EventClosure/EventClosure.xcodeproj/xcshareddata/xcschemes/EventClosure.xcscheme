@@ -17,7 +17,7 @@
                BlueprintIdentifier = "EF963DE5224BBD6A0099BBAB"
                BuildableName = "EventClosure.framework"
                BlueprintName = "EventClosure"
-               ReferencedContainer = "container:EventClosure/EventClosure.xcodeproj">
+               ReferencedContainer = "container:EventClosure.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,7 +36,7 @@
                BlueprintIdentifier = "EF963DEE224BBD6C0099BBAB"
                BuildableName = "EventClosureTests.xctest"
                BlueprintName = "EventClosureTests"
-               ReferencedContainer = "container:EventClosure/EventClosure.xcodeproj">
+               ReferencedContainer = "container:EventClosure.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -46,7 +46,7 @@
             BlueprintIdentifier = "EF34D9DA224BCC8C009504D2"
             BuildableName = "EventClosureApp.app"
             BlueprintName = "EventClosureApp"
-            ReferencedContainer = "container:EventClosure/EventClosure.xcodeproj">
+            ReferencedContainer = "container:EventClosure.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "EF963DE5224BBD6A0099BBAB"
             BuildableName = "EventClosure.framework"
             BlueprintName = "EventClosure"
-            ReferencedContainer = "container:EventClosure/EventClosure.xcodeproj">
+            ReferencedContainer = "container:EventClosure.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
