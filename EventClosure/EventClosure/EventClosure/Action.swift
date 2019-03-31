@@ -8,8 +8,12 @@
 
 import UIKit
 
+/// Typealias for Action<Void>
 public typealias ActionVoid = Action<Void>
-/// Target-Action helper.
+
+
+/// An Action class act as storage of closure
+/// Type parameter I represent input
 public final class Action<I>: NSObject {
     private let _action: (I) -> Void
     private let _input: I
@@ -19,7 +23,7 @@ public final class Action<I>: NSObject {
     ///
     /// - Parameters:
     ///   - action: A closure with input parameter of type I
-    ///   - input: a parameter object of type I, must be reference type
+    ///   - input: a parameter object of type I
     public init(action: @escaping (I) -> Void, input: I) {
         _action = action
         _input = input
@@ -28,15 +32,18 @@ public final class Action<I>: NSObject {
     
     
     /// Call associated action with paremeter input
+    /// The parameter input is supplied at receiver initialization
     @objc
     public func performAction() {
         _action(_input)
     }
     
+    /// Selector for performAction
     public var selector: Selector {
         return #selector(performAction)
     }
     
+    /// Test equality between two instance of Action
     override public func isEqual(_ object: Any?) -> Bool {
         guard let action = object as? Action<I> else {
             return false
