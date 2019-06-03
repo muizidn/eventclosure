@@ -13,7 +13,7 @@ fileprivate var ActionKey: UInt8 = 0
 /// Typealias for () -> Void
 typealias VoidCallback = () -> Void
 
-extension UIControl {
+public extension UIControl {
     private var _actionVoids: Set<ActionVoid> {
         get {
             if let value = objc_getAssociatedObject(self, &ActionKey) as? Set<ActionVoid> {
@@ -27,7 +27,7 @@ extension UIControl {
     }
     
     /// The number of actions associated to receiver
-    public var actionsCount: Int {
+    var actionsCount: Int {
         return _actionVoids.count
     }
     
